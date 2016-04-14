@@ -15,6 +15,7 @@ attribute :org_unit, :kind_of => String
 attribute :org, :kind_of => String
 attribute :location, :kind_of => String
 attribute :country, :kind_of => String
+attribute :keyalg, :kind_of => String
 
 # these attributes are specific to the :importkeystore action
 attribute :srcstoretype, :kind_of => String

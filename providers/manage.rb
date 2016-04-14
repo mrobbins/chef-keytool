@@ -105,6 +105,7 @@ action :createstore do
   -keystore #{new_resource.keystore} \
   -storepass #{new_resource.storepass} \
   -keypass #{new_resource.storepass}
+  -keyalg #{new_resource.keyalg}
 eos
   @keytool += keytool_command
 
